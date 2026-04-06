@@ -1,0 +1,60 @@
+version: 1
+name: yamdc-plugins
+desc: external searcher plugin bundle for yamdc
+bundle_version: 2026.04.06
+entry: plugins
+chains:
+  all:
+    - name: javbus
+      priority: 100
+    - name: javhoo
+      priority: 110
+    - name: airav
+      priority: 120
+    - name: javdb
+      priority: 130
+    - name: jav321
+      priority: 140
+    - name: javlibrary
+      priority: 150
+    - name: caribpr
+      priority: 160
+    - name: 18av
+      priority: 170
+    - name: njav
+      priority: 180
+    - name: missav
+      priority: 190
+    - name: freejavbt
+      priority: 200
+    - name: tktube
+      priority: 210
+    - name: avsox
+      priority: 220
+  fc2:
+    - name: fc2
+      priority: 100
+    - name: 18av
+      priority: 110
+    - name: njav
+      priority: 120
+    - name: freejavbt
+      priority: 130
+    - name: tktube
+      priority: 140
+    - name: avsox
+      priority: 150
+    - name: fc2ppvdb
+      priority: 160
+  jvr:
+    - name: jvrporn
+      priority: 100
+  cospuri:
+    - name: cospuri
+      priority: 100
+  md:
+    - name: madouqu
+      priority: 100
+  manyvids:
+    - name: manyvids
+      priority: 100
