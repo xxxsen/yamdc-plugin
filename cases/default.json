@@ -137,6 +137,14 @@
       "output": {
         "status": "success"
       }
+    },
+    {
+      "plugin": "njav",
+      "name": "test_njav",
+      "input": "REBD-1022",
+      "output": {
+        "status": "success"
+      }
     }
   ]
 }
