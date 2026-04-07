@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "plugin": "18av",
+      "name": "test_18av",
+      "input": "REBD-1022",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "avsox",
+      "name": "test_avsox",
+      "input": "FC2-PPV-4663589",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "caribpr",
+      "name": "test_caribpr",
+      "input": "040226_001",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "cospuri",
+      "name": "test_cospuri",
+      "input": "COSPURI-0419YA2D",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "fc2",
+      "name": "test_fc2",
+      "input": "FC2-PPV-4809303",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "jav321",
+      "name": "test_jav321",
+      "input": "jufe-618",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "javbus",
+      "name": "test_javbus",
+      "input": "ABF-333",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "javdb",
+      "name": "test_javdb",
+      "input": "STOUCH-173",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "jvrporn",
+      "name": "test_jvrporn",
+      "input": "jvr-100203",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "madouqu",
+      "name": "test_madouqu",
+      "input": "MADOU-mgl-0011",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "manyvids",
+      "name": "test_manyvids_7274275",
+      "input": "MANYVIDS-7274275",
+      "output": {
+        "title": "Tattoed babes twerk",
+        "actor_set": [
+          "coraljade"
+        ],
+        "tag_set": [
+          "Blonde",
+          "BoobBouncing",
+          "BootyShaking",
+          "Brunette",
+          "Dancing",
+          "Music",
+          "SFW",
+          "Twerk",
+          "YogaPants"
+        ],
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "manyvids",
+      "name": "test_manyvids_1169588",
+      "input": "MANYVIDS-1169588",
+      "output": {
+        "title": "Lonely Girl cover",
+        "actor_set": [
+          "Domino Faye"
+        ],
+        "tag_set": [
+          "Brunette",
+          "HatFetish",
+          "Music",
+          "SFW",
+          "Smoking"
+        ],
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "missav",
+      "name": "test_missav",
+      "input": "URKN-012",
+      "output": {
+        "status": "success"
+      }
+    },
+    {
+      "plugin": "tktube",
+      "name": "test_tktube",
+      "input": "ADN-752",
+      "output": {
+        "status": "success"
+      }
+    }
+  ]
+}

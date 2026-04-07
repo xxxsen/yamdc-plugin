@@ -1,0 +1,46 @@
+name: Plugin Test
+
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      yamdc_ref:
+        description: "yamdc version/ref, e.g. latest, v1.0.0, master"
+        required: false
+        default: "latest"
+
+permissions:
+  contents: read
+
+jobs:
+  plugin-test:
+    runs-on: ubuntu-latest
+    env:
+      YAMDC_REF: ${{ github.event_name == 'workflow_dispatch' && inputs.yamdc_ref || 'latest' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25.0'
+
+      - name: Add GOPATH bin to PATH
+        run: echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Install yamdc
+        run: go install github.com/xxxsen/yamdc/cmd/yamdc@${YAMDC_REF}
+
+      - name: Run plugin test
+        run: bash ./scripts/run_plugin_test.sh
+
+      - name: Write summary
+        if: always()
+        run: |
+          echo "## Plugin Test" >> "$GITHUB_STEP_SUMMARY"
+          echo "- yamdc ref: \`${YAMDC_REF}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- plugin dir: \`./\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- casefile: \`./cases\`" >> "$GITHUB_STEP_SUMMARY"
