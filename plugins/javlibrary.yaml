@@ -1,6 +1,7 @@
 version: 1
 name: javlibrary
 type: one-step
+fetch_type: flaresolverr
 hosts:
   - https://www.javlibrary.com
 request:
